@@ -1,29 +1,23 @@
-# Number Guessing game 🕹️
-This project shows a simple Number Guessing Game in python.
+# Number Guessing Game 🕹️
 
-the goal of the program is for the user to guess a secret number between 1 and 100.
-The computer generate the number randomly, and the user tries to guess it.
+## Description
+This project is a simple Number Guessing Game written in Python.  
+It is a small program that allows the user to guess a secret number between 1 and 100.
 
-after each guess the program compares the numbeer and gives a hint:
+The program generates a random number and asks the user to guess it.  
+After each attempt, the program compares the guess with the secret number and gives a hint.  
+The player continues guessing until the correct number is found.
 
-* Try a lower number.
-* Try a higher number.
+## How it works
+1. The program generates a random number between 1 and 100.
+2. The user enters a number as a guess.
+3. The program compares the guess with the secret number.
+4. The program shows a hint: higher or lower.
+5. The process repeats until the user guesses the correct number.
 
-The game continues until user guesses the correct number.
-
-# How the program works
-
-the program uses three main functions:
-
-* generate_number() -> creates a random number.
-* compare_guess() -> compares the user's number with the  secret number.
-* show_hints() -> displays hints to gide the user 
-
-# Code example
-
-```Guess the number between 1 and 100
-Enter a number to guess: 34
-Try a lower number
+## Code example
+```
+Guess the number between 1 and 100
 Enter a number to guess: 34
 Try a lower number
 Enter a number to guess: 45
@@ -39,3 +33,6 @@ Try a higher number
 Enter a number to guess: 4
 Congratulations, you guessed the number!
 ```
+
+## Status
+> The project is currently running correctly and the game is working as expected.
